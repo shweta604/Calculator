@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(97, 73, 135), rgba(119, 107, 107, 0.799));
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    width: 100%;
+    padding: 0.4em 0.7em;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.744);
+    background: seashell;
+    outline: none;
+}
+
+button:hover {
+    background: rgb(255, 245, 238, 0.8);
+}
+
+.output {
+    min-width: 14.7em;
+    max-width: 14.7em;
+    min-height: 97px;
+    max-height: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: rgba(0 ,0 , 0, 0.3);
+    padding: 10px;
+    color: seashell;
+    word-break: break-all;
+}
+
+.operand1 {
+    font-size: 1.3rem;
+    color:rgba(255, 255, 255, 0.744);
+}
+
+.operand2 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.operator {
+    background: rgba(165, 42, 42, 0.8);
+    color: seashell;
+}
+
+.operator:hover {
+    background: brown;
+    color: white;
+}
