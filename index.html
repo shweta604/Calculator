@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <table class="calculator">
+        <thead>
+            <tr>
+                <th colspan="4" class="output">
+                    <div class="operand1" data-previous-operand></div>
+                    <div class="operand2" data-current-operand>0</div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <button data-clear-one>CE</button>
+                </td>
+                <td colspan="2">
+                    <button data-clear-all>C</button>
+                </td>
+                <td>
+                    <button class="operator" data-operation>/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button data-number>7</button>
+                </td>
+                <td>
+                    <button data-number>8</button>
+                </td>
+                <td>
+                    <button data-number>9</button>
+                </td>
+                <td>
+                    <button class="operator" data-operation>x</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button data-number>4</button>
+                </td>
+                <td>
+                    <button data-number>5</button>
+                </td>
+                <td>
+                    <button data-number>6</button>
+                </td>
+                <td>
+                    <button class="operator" data-operation>-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button data-number>1</button>
+                </td>
+                <td>
+                    <button data-number>2</button>
+                </td>
+                <td>
+                    <button data-number>3</button>
+                </td>
+                <td>
+                    <button class="operator" data-operation>+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button data-number>0</button>
+                </td>
+                <td>
+                    <button data-number>.</button>
+                </td>
+                <td colspan="2">
+                    <button class="operator" data-equals-to>=</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
